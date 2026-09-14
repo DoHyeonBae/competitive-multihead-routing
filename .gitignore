@@ -1,0 +1,24 @@
+# Dataset
+data/
+
+# Experiment outputs
+outputs*/
+outputs_*/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
