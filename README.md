@@ -19,7 +19,6 @@ Multi-head attention 구조에서 head 수를 늘리는 것이 실제로 head �
 
 즉, 전체 픽셀 기준으로는 head 활용이 균등해 보여도(1.29×) 실제 장기 영역(foreground)에서는 극도로 편중되어 있었고(111.7×), foreground-aware balancing으로 이 불균형을 완화할 수 있었지만(1.67×) segmentation 정확도(Dice) 자체는 거의 변하지 않았습니다. 즉 **utilization의 균형화가 head의 장기별 기능적 분화까지 보장하지는 않는다**는 것이 핵심 결론입니다.
 
-이 결론은 후속 연구인 [Organ-Aware Head Specialization for Multi-Head Routing](../../) 연구계획서의 출발점이 됩니다.
 
 ## Repository Structure
 
